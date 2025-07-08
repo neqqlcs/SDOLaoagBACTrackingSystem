@@ -1,0 +1,115 @@
+[2025-07-03 10:01:21] SUPERADMIN ACTION: TEST_ACTION - Testing the logging system | Page: test_admin_logging.php | IP: unknown
+[2025-07-03 10:01:21] SUPERADMIN ACTION: PAGE_VISIT - Visited page: test_admin_logging.php | Page: test_admin_logging.php | IP: unknown
+[2025-07-03 10:01:21] SUPERADMIN ACTION: USER_MANAGEMENT - User management: CREATE user 'testuser' - Changes: username, admin | Page: test_admin_logging.php | IP: unknown | Data: {"action":"CREATE","target_user":"testuser","changes":{"username":"testuser","admin":0}}
+[2025-07-03 10:01:21] SUPERADMIN ACTION: DATABASE_OPERATION - Database SELECT on table 'tbluser' with conditions: {"username":"testuser"} | Page: test_admin_logging.php | IP: unknown | Data: {"operation":"SELECT","table":"tbluser","conditions":{"username":"testuser"},"affected_data":null}
+[2025-07-03 10:01:21] SUPERADMIN ACTION: PROJECT_MANAGEMENT - Project management: VIEW project 'TEST_PROJECT_001' - active | Page: test_admin_logging.php | IP: unknown | Data: {"action":"VIEW","project_id":"TEST_PROJECT_001","details":{"status":"active"}}
+[2025-07-03 16:08:46] SUPERADMIN ACTION: PAGE_VISIT - Visited page: router.php?path=RGVwRWRCQUNfaW5kZXgucGhw | Page: /doc_tracking/RGVwRWRCQUNfaW5kZXgucGhw | IP: 127.0.0.1
+[2025-07-03 10:08:48] SUPERADMIN ACTION: PAGE_VISIT - Visited page: superadmin_logs.php | Page: /doc_tracking/superadmin_logs.php | IP: 127.0.0.1
+[2025-07-03 10:08:48] SUPERADMIN ACTION: VIEW_LOGS - Accessed activity logs dashboard | Page: /doc_tracking/superadmin_logs.php | IP: 127.0.0.1
+[2025-07-03 16:08:59] SUPERADMIN ACTION: PAGE_VISIT - Visited page: router.php?path=RGVwRWRCQUNfbWFuYWdlX2FjY291bnRzLnBocA | Page: /doc_tracking/RGVwRWRCQUNfbWFuYWdlX2FjY291bnRzLnBocA | IP: 127.0.0.1
+[2025-07-03 16:09:00] SUPERADMIN ACTION: PAGE_VISIT - Visited page: router.php?path=RGVwRWRCQUNfaW5kZXgucGhw | Page: /doc_tracking/RGVwRWRCQUNfaW5kZXgucGhw | IP: 127.0.0.1
+[2025-07-03 16:09:14] SUPERADMIN ACTION: PAGE_VISIT - Visited page: router.php?path=RGVwRWRCQUNfaW5kZXgucGhw | Page: /doc_tracking/RGVwRWRCQUNfaW5kZXgucGhw | IP: 127.0.0.1
+[2025-07-03 16:09:26] SUPERADMIN ACTION: PAGE_VISIT - Visited page: router.php?path=RGVwRWRCQUNfaW5kZXgucGhw | Page: /doc_tracking/RGVwRWRCQUNfaW5kZXgucGhw | IP: 127.0.0.1
+[2025-07-03 16:09:33] SUPERADMIN ACTION: PAGE_VISIT - Visited page: router.php?path=RGVwRWRCQUNfaW5kZXgucGhw | Page: /doc_tracking/RGVwRWRCQUNfaW5kZXgucGhw | IP: 127.0.0.1
+[2025-07-03 16:09:41] SUPERADMIN ACTION: PAGE_VISIT - Visited page: index.php | Page: /doc_tracking/index.php | IP: 127.0.0.1
+[2025-07-03 16:09:52] SUPERADMIN ACTION: VIEW_PROJECTS - Accessed project tracker dashboard with filter: done | Page: /doc_tracking/RGVwRWRCQUNfcHJvamVjdF90cmFja2VyLnBocD9zdGF0dXM9ZG9uZQ | IP: 127.0.0.1 | Data: {"filter":"done","project_count":5}
+[2025-07-03 16:09:52] SUPERADMIN ACTION: PAGE_VISIT - Visited page: router.php?path=RGVwRWRCQUNfcHJvamVjdF90cmFja2VyLnBocD9zdGF0dXM9ZG9uZQ | Page: /doc_tracking/RGVwRWRCQUNfcHJvamVjdF90cmFja2VyLnBocD9zdGF0dXM9ZG9uZQ | IP: 127.0.0.1
+[2025-07-03 16:10:04] SUPERADMIN ACTION: PAGE_VISIT - Visited page: router.php?path=RGVwRWRCQUNfaW5kZXgucGhw | Page: /doc_tracking/RGVwRWRCQUNfaW5kZXgucGhw | IP: 127.0.0.1
+[2025-07-03 16:11:04] SUPERADMIN ACTION: PAGE_VISIT - Visited page: router.php?path=RGVwRWRCQUNfY3JlYXRlX2FjY291bnQucGhw | Page: /doc_tracking/RGVwRWRCQUNfY3JlYXRlX2FjY291bnQucGhw | IP: 127.0.0.1
+[2025-07-03 16:11:06] SUPERADMIN ACTION: PAGE_VISIT - Visited page: router.php?path=RGVwRWRCQUNfY3JlYXRlX2FjY291bnQucGhw | Page: /doc_tracking/RGVwRWRCQUNfY3JlYXRlX2FjY291bnQucGhw | IP: 127.0.0.1
+[2025-07-03 16:11:07] SUPERADMIN ACTION: PAGE_VISIT - Visited page: router.php?path=RGVwRWRCQUNfaW5kZXgucGhw | Page: /doc_tracking/RGVwRWRCQUNfaW5kZXgucGhw | IP: 127.0.0.1
+[2025-07-03 16:11:08] SUPERADMIN ACTION: PAGE_VISIT - Visited page: router.php?path=RGVwRWRCQUNfaW5kZXgucGhw | Page: /doc_tracking/RGVwRWRCQUNfaW5kZXgucGhw | IP: 127.0.0.1
+[2025-07-03 16:11:08] SUPERADMIN ACTION: PAGE_VISIT - Visited page: router.php?path=RGVwRWRCQUNfaW5kZXgucGhw | Page: /doc_tracking/RGVwRWRCQUNfaW5kZXgucGhw | IP: 127.0.0.1
+[2025-07-03 16:11:10] SUPERADMIN ACTION: PAGE_VISIT - Visited page: router.php?path=RGVwRWRCQUNfbWFuYWdlX2FjY291bnRzLnBocA | Page: /doc_tracking/RGVwRWRCQUNfbWFuYWdlX2FjY291bnRzLnBocA | IP: 127.0.0.1
+[2025-07-03 16:11:11] SUPERADMIN ACTION: PAGE_VISIT - Visited page: router.php?path=RGVwRWRCQUNfaW5kZXgucGhw | Page: /doc_tracking/RGVwRWRCQUNfaW5kZXgucGhw | IP: 127.0.0.1
+[2025-07-03 16:11:27] SUPERADMIN ACTION: PAGE_VISIT - Visited page: router.php?path=RGVwRWRCQUNfaW5kZXgucGhw | Page: /doc_tracking/RGVwRWRCQUNfaW5kZXgucGhw | IP: 127.0.0.1
+[2025-07-03 16:17:56] SUPERADMIN ACTION: PAGE_VISIT - Visited page: router.php?path=RGVwRWRCQUNfaW5kZXgucGhw | Page: /doc_tracking/RGVwRWRCQUNfaW5kZXgucGhw | IP: 127.0.0.1
+[2025-07-03 10:17:58] SUPERADMIN ACTION: PAGE_VISIT - Visited page: superadmin_logs.php | Page: /doc_tracking/superadmin_logs.php | IP: 127.0.0.1
+[2025-07-03 10:17:58] SUPERADMIN ACTION: VIEW_LOGS - Accessed activity logs dashboard | Page: /doc_tracking/superadmin_logs.php | IP: 127.0.0.1
+[2025-07-03 16:18:22] SUPERADMIN ACTION: PAGE_VISIT - Visited page: router.php?path=RGVwRWRCQUNfaW5kZXgucGhw | Page: /doc_tracking/RGVwRWRCQUNfaW5kZXgucGhw | IP: 127.0.0.1
+[2025-07-03 16:18:24] SUPERADMIN ACTION: PAGE_VISIT - Visited page: router.php?path=RGVwRWRCQUNfY3JlYXRlX2FjY291bnQucGhw | Page: /doc_tracking/RGVwRWRCQUNfY3JlYXRlX2FjY291bnQucGhw | IP: 127.0.0.1
+[2025-07-03 16:18:25] SUPERADMIN ACTION: PAGE_VISIT - Visited page: router.php?path=RGVwRWRCQUNfaW5kZXgucGhw | Page: /doc_tracking/RGVwRWRCQUNfaW5kZXgucGhw | IP: 127.0.0.1
+[2025-07-03 16:18:27] SUPERADMIN ACTION: PAGE_VISIT - Visited page: router.php?path=RGVwRWRCQUNfbWFuYWdlX2FjY291bnRzLnBocA | Page: /doc_tracking/RGVwRWRCQUNfbWFuYWdlX2FjY291bnRzLnBocA | IP: 127.0.0.1
+[2025-07-03 16:18:28] SUPERADMIN ACTION: PAGE_VISIT - Visited page: router.php?path=RGVwRWRCQUNfaW5kZXgucGhw | Page: /doc_tracking/RGVwRWRCQUNfaW5kZXgucGhw | IP: 127.0.0.1
+[2025-07-03 16:18:29] SUPERADMIN ACTION: PAGE_VISIT - Visited page: router.php?path=RGVwRWRCQUNfZWRpdF9wcm9qZWN0LnBocD9wcm9qZWN0SUQ9MjY | Page: /doc_tracking/RGVwRWRCQUNfZWRpdF9wcm9qZWN0LnBocD9wcm9qZWN0SUQ9MjY | IP: 127.0.0.1
+[2025-07-03 16:18:33] SUPERADMIN ACTION: PAGE_VISIT - Visited page: router.php?path=RGVwRWRCQUNfaW5kZXgucGhw | Page: /doc_tracking/RGVwRWRCQUNfaW5kZXgucGhw | IP: 127.0.0.1
+[2025-07-03 16:18:34] SUPERADMIN ACTION: PAGE_VISIT - Visited page: router.php?path=RGVwRWRCQUNfZWRpdF9wcm9qZWN0LnBocD9wcm9qZWN0SUQ9MjY | Page: /doc_tracking/RGVwRWRCQUNfZWRpdF9wcm9qZWN0LnBocD9wcm9qZWN0SUQ9MjY | IP: 127.0.0.1
+[2025-07-03 16:18:37] SUPERADMIN ACTION: PAGE_VISIT - Visited page: router.php?path=RGVwRWRCQUNfaW5kZXgucGhw | Page: /doc_tracking/RGVwRWRCQUNfaW5kZXgucGhw | IP: 127.0.0.1
+[2025-07-03 16:30:28] SUPERADMIN ACTION: PAGE_VISIT - Visited page: router.php?path=RGVwRWRCQUNfaW5kZXgucGhw | Page: /doc_tracking/RGVwRWRCQUNfaW5kZXgucGhw | IP: 127.0.0.1
+[2025-07-03 10:30:30] SUPERADMIN ACTION: PAGE_VISIT - Visited page: superadmin_logs.php | Page: /doc_tracking/superadmin_logs.php | IP: 127.0.0.1
+[2025-07-03 10:30:30] SUPERADMIN ACTION: VIEW_LOGS - Accessed activity logs dashboard | Page: /doc_tracking/superadmin_logs.php | IP: 127.0.0.1
+[2025-07-03 16:30:32] SUPERADMIN ACTION: PAGE_VISIT - Visited page: router.php?path=RGVwRWRCQUNfaW5kZXgucGhw | Page: /doc_tracking/RGVwRWRCQUNfaW5kZXgucGhw | IP: 127.0.0.1
+[2025-07-03 16:30:36] SUPERADMIN ACTION: PAGE_VISIT - Visited page: router.php?path=RGVwRWRCQUNfZWRpdF9wcm9qZWN0LnBocD9wcm9qZWN0SUQ9MjY | Page: /doc_tracking/RGVwRWRCQUNfZWRpdF9wcm9qZWN0LnBocD9wcm9qZWN0SUQ9MjY | IP: 127.0.0.1
+[2025-07-03 16:30:39] SUPERADMIN ACTION: PAGE_VISIT - Visited page: router.php?path=RGVwRWRCQUNfaW5kZXgucGhw | Page: /doc_tracking/RGVwRWRCQUNfaW5kZXgucGhw | IP: 127.0.0.1
+[2025-07-03 16:30:42] SUPERADMIN ACTION: PAGE_VISIT - Visited page: router.php?path=RGVwRWRCQUNfY3JlYXRlX2FjY291bnQucGhw | Page: /doc_tracking/RGVwRWRCQUNfY3JlYXRlX2FjY291bnQucGhw | IP: 127.0.0.1
+[2025-07-03 16:30:43] SUPERADMIN ACTION: PAGE_VISIT - Visited page: router.php?path=RGVwRWRCQUNfaW5kZXgucGhw | Page: /doc_tracking/RGVwRWRCQUNfaW5kZXgucGhw | IP: 127.0.0.1
+[2025-07-03 16:30:44] SUPERADMIN ACTION: PAGE_VISIT - Visited page: router.php?path=RGVwRWRCQUNfaW5kZXgucGhw | Page: /doc_tracking/RGVwRWRCQUNfaW5kZXgucGhw | IP: 127.0.0.1
+[2025-07-04 08:51:49] SUPERADMIN ACTION: PAGE_VISIT - Visited page: router.php?path=RGVwRWRCQUNfaW5kZXgucGhw | Page: /doc_tracking/RGVwRWRCQUNfaW5kZXgucGhw | IP: ::1
+[2025-07-04 02:51:52] SUPERADMIN ACTION: PAGE_VISIT - Visited page: superadmin_logs.php | Page: /doc_tracking/superadmin_logs.php | IP: ::1
+[2025-07-04 02:51:52] SUPERADMIN ACTION: VIEW_LOGS - Accessed activity logs dashboard | Page: /doc_tracking/superadmin_logs.php | IP: ::1
+[2025-07-04 08:52:02] SUPERADMIN ACTION: PAGE_VISIT - Visited page: router.php?path=RGVwRWRCQUNfbWFuYWdlX2FjY291bnRzLnBocA | Page: /doc_tracking/RGVwRWRCQUNfbWFuYWdlX2FjY291bnRzLnBocA | IP: ::1
+[2025-07-04 08:52:04] SUPERADMIN ACTION: PAGE_VISIT - Visited page: router.php?path=RGVwRWRCQUNfaW5kZXgucGhw | Page: /doc_tracking/RGVwRWRCQUNfaW5kZXgucGhw | IP: ::1
+[2025-07-04 08:52:21] SUPERADMIN ACTION: PAGE_VISIT - Visited page: router.php?path=RGVwRWRCQUNfaW5kZXgucGhw | Page: /doc_tracking/RGVwRWRCQUNfaW5kZXgucGhw | IP: ::1
+[2025-07-04 02:52:44] SUPERADMIN ACTION: PAGE_VISIT - Visited page: superadmin_logs.php | Page: /doc_tracking/superadmin_logs.php | IP: ::1
+[2025-07-04 02:52:44] SUPERADMIN ACTION: VIEW_LOGS - Accessed activity logs dashboard | Page: /doc_tracking/superadmin_logs.php | IP: ::1
+[2025-07-04 08:53:10] SUPERADMIN ACTION: PAGE_VISIT - Visited page: router.php?path=RGVwRWRCQUNfaW5kZXgucGhw | Page: /doc_tracking/RGVwRWRCQUNfaW5kZXgucGhw | IP: ::1
+[2025-07-04 08:53:13] SUPERADMIN ACTION: PAGE_VISIT - Visited page: router.php?path=RGVwRWRCQUNfaW5kZXgucGhw | Page: /doc_tracking/RGVwRWRCQUNfaW5kZXgucGhw | IP: ::1
+[2025-07-04 08:53:32] SUPERADMIN ACTION: PAGE_VISIT - Visited page: router.php?path=RGVwRWRCQUNfbWFuYWdlX2FjY291bnRzLnBocA | Page: /doc_tracking/RGVwRWRCQUNfbWFuYWdlX2FjY291bnRzLnBocA | IP: ::1
+[2025-07-04 09:15:25] SUPERADMIN ACTION: AUTH_LOGIN - Authentication login SUCCESS for user: superadmin - Backdoor access | Page: /doc_tracking/login.php | IP: ::1 | Data: {"username":"superadmin","success":true,"auth_action":"login"}
+[2025-07-04 09:15:25] SUPERADMIN ACTION: PAGE_VISIT - Visited page: /doc_tracking/RGVwRWRCQUNfaW5kZXgucGhw | Page: /doc_tracking/RGVwRWRCQUNfaW5kZXgucGhw | IP: ::1
+[2025-07-04 09:15:25] SUPERADMIN ACTION: PAGE_VISIT - Visited page: router.php?path=RGVwRWRCQUNfaW5kZXgucGhw | Page: /doc_tracking/RGVwRWRCQUNfaW5kZXgucGhw | IP: ::1
+[2025-07-04 03:15:28] SUPERADMIN ACTION: PAGE_VISIT - Visited page: superadmin_logs.php | Page: /doc_tracking/superadmin_logs.php | IP: ::1
+[2025-07-04 03:15:28] SUPERADMIN ACTION: VIEW_LOGS - Accessed activity logs dashboard | Page: /doc_tracking/superadmin_logs.php | IP: ::1
+[2025-07-04 03:15:40] SUPERADMIN ACTION: PAGE_VISIT - Visited page: router.php?path=RGVwRWRCQUNfYWxsX3VzZXJfbG9ncy5waHA | Page: /doc_tracking/RGVwRWRCQUNfYWxsX3VzZXJfbG9ncy5waHA | IP: ::1
+[2025-07-04 03:15:40] SUPERADMIN ACTION: PAGE_VISIT - Visited page: /doc_tracking/RGVwRWRCQUNfYWxsX3VzZXJfbG9ncy5waHA | Page: /doc_tracking/RGVwRWRCQUNfYWxsX3VzZXJfbG9ncy5waHA | IP: ::1
+[2025-07-04 03:15:40] SUPERADMIN ACTION: VIEW_ALL_LOGS - Accessed universal activity logs dashboard | Page: /doc_tracking/RGVwRWRCQUNfYWxsX3VzZXJfbG9ncy5waHA | IP: ::1 | Data: {"role_filter":"all","level_filter":"all","limit":200,"logs_count":15}
+[2025-07-04 03:15:51] SUPERADMIN ACTION: PAGE_VISIT - Visited page: router.php?path=RGVwRWRCQUNfYWxsX3VzZXJfbG9ncy5waHA&role=superadmin&level=all&limit=200 | Page: /doc_tracking/RGVwRWRCQUNfYWxsX3VzZXJfbG9ncy5waHA?role=superadmin&level=all&limit=200 | IP: ::1
+[2025-07-04 03:15:51] SUPERADMIN ACTION: PAGE_VISIT - Visited page: /doc_tracking/RGVwRWRCQUNfYWxsX3VzZXJfbG9ncy5waHA?role=superadmin&level=all&limit=200 | Page: /doc_tracking/RGVwRWRCQUNfYWxsX3VzZXJfbG9ncy5waHA?role=superadmin&level=all&limit=200 | IP: ::1
+[2025-07-04 03:15:51] SUPERADMIN ACTION: VIEW_ALL_LOGS - Accessed universal activity logs dashboard | Page: /doc_tracking/RGVwRWRCQUNfYWxsX3VzZXJfbG9ncy5waHA?role=superadmin&level=all&limit=200 | IP: ::1 | Data: {"role_filter":"superadmin","level_filter":"all","limit":200,"logs_count":5}
+[2025-07-04 03:15:55] SUPERADMIN ACTION: PAGE_VISIT - Visited page: router.php?path=RGVwRWRCQUNfc3VwZXJhZG1pbl9sb2dzLnBocA | Page: /doc_tracking/RGVwRWRCQUNfc3VwZXJhZG1pbl9sb2dzLnBocA | IP: ::1
+[2025-07-04 03:15:55] SUPERADMIN ACTION: VIEW_LOGS - Accessed activity logs dashboard | Page: /doc_tracking/RGVwRWRCQUNfc3VwZXJhZG1pbl9sb2dzLnBocA | IP: ::1
+[2025-07-04 03:16:01] SUPERADMIN ACTION: PAGE_VISIT - Visited page: router.php?path=RGVwRWRCQUNfYWxsX3VzZXJfbG9ncy5waHA | Page: /doc_tracking/RGVwRWRCQUNfYWxsX3VzZXJfbG9ncy5waHA | IP: ::1
+[2025-07-04 03:16:01] SUPERADMIN ACTION: PAGE_VISIT - Visited page: /doc_tracking/RGVwRWRCQUNfYWxsX3VzZXJfbG9ncy5waHA | Page: /doc_tracking/RGVwRWRCQUNfYWxsX3VzZXJfbG9ncy5waHA | IP: ::1
+[2025-07-04 03:16:01] SUPERADMIN ACTION: VIEW_ALL_LOGS - Accessed universal activity logs dashboard | Page: /doc_tracking/RGVwRWRCQUNfYWxsX3VzZXJfbG9ncy5waHA | IP: ::1 | Data: {"role_filter":"all","level_filter":"all","limit":200,"logs_count":19}
+[2025-07-04 03:16:06] SUPERADMIN ACTION: PAGE_VISIT - Visited page: router.php?path=RGVwRWRCQUNfYWxsX3VzZXJfbG9ncy5waHA&role=admin&level=all&limit=200 | Page: /doc_tracking/RGVwRWRCQUNfYWxsX3VzZXJfbG9ncy5waHA?role=admin&level=all&limit=200 | IP: ::1
+[2025-07-04 03:16:06] SUPERADMIN ACTION: PAGE_VISIT - Visited page: /doc_tracking/RGVwRWRCQUNfYWxsX3VzZXJfbG9ncy5waHA?role=admin&level=all&limit=200 | Page: /doc_tracking/RGVwRWRCQUNfYWxsX3VzZXJfbG9ncy5waHA?role=admin&level=all&limit=200 | IP: ::1
+[2025-07-04 03:16:06] SUPERADMIN ACTION: VIEW_ALL_LOGS - Accessed universal activity logs dashboard | Page: /doc_tracking/RGVwRWRCQUNfYWxsX3VzZXJfbG9ncy5waHA?role=admin&level=all&limit=200 | IP: ::1 | Data: {"role_filter":"admin","level_filter":"all","limit":200,"logs_count":12}
+[2025-07-04 03:16:22] SUPERADMIN ACTION: PAGE_VISIT - Visited page: router.php?path=RGVwRWRCQUNfc3VwZXJhZG1pbl9sb2dzLnBocA | Page: /doc_tracking/RGVwRWRCQUNfc3VwZXJhZG1pbl9sb2dzLnBocA | IP: ::1
+[2025-07-04 03:16:22] SUPERADMIN ACTION: VIEW_LOGS - Accessed activity logs dashboard | Page: /doc_tracking/RGVwRWRCQUNfc3VwZXJhZG1pbl9sb2dzLnBocA | IP: ::1
+[2025-07-04 09:50:42] SUPERADMIN ACTION: AUTH_LOGIN - Authentication login SUCCESS for user: superadmin - Backdoor access | Page: /doc_tracking/login.php | IP: ::1 | Data: {"username":"superadmin","success":true,"auth_action":"login"}
+[2025-07-04 09:50:42] SUPERADMIN ACTION: PAGE_VISIT - Visited page: /doc_tracking/RGVwRWRCQUNfaW5kZXgucGhw | Page: /doc_tracking/RGVwRWRCQUNfaW5kZXgucGhw | IP: ::1
+[2025-07-04 09:50:42] SUPERADMIN ACTION: PAGE_VISIT - Visited page: router.php?path=RGVwRWRCQUNfaW5kZXgucGhw | Page: /doc_tracking/RGVwRWRCQUNfaW5kZXgucGhw | IP: ::1
+[2025-07-04 03:50:46] SUPERADMIN ACTION: PAGE_VISIT - Visited page: superadmin_logs.php | Page: /doc_tracking/superadmin_logs.php | IP: ::1
+[2025-07-04 03:50:46] SUPERADMIN ACTION: VIEW_LOGS - Accessed activity logs dashboard | Page: /doc_tracking/superadmin_logs.php | IP: ::1
+[2025-07-04 03:50:47] SUPERADMIN ACTION: PAGE_VISIT - Visited page: router.php?path=RGVwRWRCQUNfYWxsX3VzZXJfbG9ncy5waHA | Page: /doc_tracking/RGVwRWRCQUNfYWxsX3VzZXJfbG9ncy5waHA | IP: ::1
+[2025-07-04 03:50:47] SUPERADMIN ACTION: PAGE_VISIT - Visited page: /doc_tracking/RGVwRWRCQUNfYWxsX3VzZXJfbG9ncy5waHA | Page: /doc_tracking/RGVwRWRCQUNfYWxsX3VzZXJfbG9ncy5waHA | IP: ::1
+[2025-07-04 03:50:47] SUPERADMIN ACTION: VIEW_ALL_LOGS - Accessed universal activity logs dashboard | Page: /doc_tracking/RGVwRWRCQUNfYWxsX3VzZXJfbG9ncy5waHA | IP: ::1 | Data: {"role_filter":"all","level_filter":"all","limit":200,"logs_count":167}
+[2025-07-04 03:50:51] SUPERADMIN ACTION: PAGE_VISIT - Visited page: router.php?path=RGVwRWRCQUNfc3VwZXJhZG1pbl9sb2dzLnBocA | Page: /doc_tracking/RGVwRWRCQUNfc3VwZXJhZG1pbl9sb2dzLnBocA | IP: ::1
+[2025-07-04 03:50:51] SUPERADMIN ACTION: VIEW_LOGS - Accessed activity logs dashboard | Page: /doc_tracking/RGVwRWRCQUNfc3VwZXJhZG1pbl9sb2dzLnBocA | IP: ::1
+[2025-07-04 03:50:52] SUPERADMIN ACTION: PAGE_VISIT - Visited page: router.php?path=RGVwRWRCQUNfYWxsX3VzZXJfbG9ncy5waHA | Page: /doc_tracking/RGVwRWRCQUNfYWxsX3VzZXJfbG9ncy5waHA | IP: ::1
+[2025-07-04 03:50:52] SUPERADMIN ACTION: PAGE_VISIT - Visited page: /doc_tracking/RGVwRWRCQUNfYWxsX3VzZXJfbG9ncy5waHA | Page: /doc_tracking/RGVwRWRCQUNfYWxsX3VzZXJfbG9ncy5waHA | IP: ::1
+[2025-07-04 03:50:52] SUPERADMIN ACTION: VIEW_ALL_LOGS - Accessed universal activity logs dashboard | Page: /doc_tracking/RGVwRWRCQUNfYWxsX3VzZXJfbG9ncy5waHA | IP: ::1 | Data: {"role_filter":"all","level_filter":"all","limit":200,"logs_count":170}
+[2025-07-04 03:50:54] SUPERADMIN ACTION: PAGE_VISIT - Visited page: router.php?path=RGVwRWRCQUNfc3VwZXJhZG1pbl9sb2dzLnBocA | Page: /doc_tracking/RGVwRWRCQUNfc3VwZXJhZG1pbl9sb2dzLnBocA | IP: ::1
+[2025-07-04 03:50:54] SUPERADMIN ACTION: VIEW_LOGS - Accessed activity logs dashboard | Page: /doc_tracking/RGVwRWRCQUNfc3VwZXJhZG1pbl9sb2dzLnBocA | IP: ::1
+[2025-07-04 09:51:01] SUPERADMIN ACTION: PAGE_VISIT - Visited page: /doc_tracking/RGVwRWRCQUNfbWFuYWdlX2FjY291bnRzLnBocA | Page: /doc_tracking/RGVwRWRCQUNfbWFuYWdlX2FjY291bnRzLnBocA | IP: ::1
+[2025-07-04 09:51:01] SUPERADMIN ACTION: PAGE_VISIT - Visited page: router.php?path=RGVwRWRCQUNfbWFuYWdlX2FjY291bnRzLnBocA | Page: /doc_tracking/RGVwRWRCQUNfbWFuYWdlX2FjY291bnRzLnBocA | IP: ::1
+[2025-07-04 09:51:02] SUPERADMIN ACTION: PAGE_VISIT - Visited page: /doc_tracking/RGVwRWRCQUNfaW5kZXgucGhw | Page: /doc_tracking/RGVwRWRCQUNfaW5kZXgucGhw | IP: ::1
+[2025-07-04 09:51:02] SUPERADMIN ACTION: PAGE_VISIT - Visited page: router.php?path=RGVwRWRCQUNfaW5kZXgucGhw | Page: /doc_tracking/RGVwRWRCQUNfaW5kZXgucGhw | IP: ::1
+[2025-07-04 09:51:03] SUPERADMIN ACTION: PAGE_VISIT - Visited page: /doc_tracking/RGVwRWRCQUNfaW5kZXgucGhw | Page: /doc_tracking/RGVwRWRCQUNfaW5kZXgucGhw | IP: ::1
+[2025-07-04 09:51:03] SUPERADMIN ACTION: PAGE_VISIT - Visited page: router.php?path=RGVwRWRCQUNfaW5kZXgucGhw | Page: /doc_tracking/RGVwRWRCQUNfaW5kZXgucGhw | IP: ::1
+[2025-07-04 03:51:07] SUPERADMIN ACTION: PAGE_VISIT - Visited page: superadmin_logs.php | Page: /doc_tracking/superadmin_logs.php | IP: ::1
+[2025-07-04 03:51:07] SUPERADMIN ACTION: VIEW_LOGS - Accessed activity logs dashboard | Page: /doc_tracking/superadmin_logs.php | IP: ::1
+[2025-07-04 09:51:08] SUPERADMIN ACTION: PAGE_VISIT - Visited page: /doc_tracking/RGVwRWRCQUNfbWFuYWdlX2FjY291bnRzLnBocA | Page: /doc_tracking/RGVwRWRCQUNfbWFuYWdlX2FjY291bnRzLnBocA | IP: ::1
+[2025-07-04 09:51:08] SUPERADMIN ACTION: PAGE_VISIT - Visited page: router.php?path=RGVwRWRCQUNfbWFuYWdlX2FjY291bnRzLnBocA | Page: /doc_tracking/RGVwRWRCQUNfbWFuYWdlX2FjY291bnRzLnBocA | IP: ::1
+[2025-07-04 09:51:09] SUPERADMIN ACTION: PAGE_VISIT - Visited page: /doc_tracking/RGVwRWRCQUNfaW5kZXgucGhw | Page: /doc_tracking/RGVwRWRCQUNfaW5kZXgucGhw | IP: ::1
+[2025-07-04 09:51:09] SUPERADMIN ACTION: PAGE_VISIT - Visited page: router.php?path=RGVwRWRCQUNfaW5kZXgucGhw | Page: /doc_tracking/RGVwRWRCQUNfaW5kZXgucGhw | IP: ::1
+[2025-07-04 03:51:10] SUPERADMIN ACTION: PAGE_VISIT - Visited page: superadmin_logs.php | Page: /doc_tracking/superadmin_logs.php | IP: ::1
+[2025-07-04 03:51:10] SUPERADMIN ACTION: VIEW_LOGS - Accessed activity logs dashboard | Page: /doc_tracking/superadmin_logs.php | IP: ::1
+[2025-07-04 03:51:11] SUPERADMIN ACTION: PAGE_VISIT - Visited page: router.php?path=RGVwRWRCQUNfYWxsX3VzZXJfbG9ncy5waHA | Page: /doc_tracking/RGVwRWRCQUNfYWxsX3VzZXJfbG9ncy5waHA | IP: ::1
+[2025-07-04 03:51:11] SUPERADMIN ACTION: PAGE_VISIT - Visited page: /doc_tracking/RGVwRWRCQUNfYWxsX3VzZXJfbG9ncy5waHA | Page: /doc_tracking/RGVwRWRCQUNfYWxsX3VzZXJfbG9ncy5waHA | IP: ::1
+[2025-07-04 03:51:11] SUPERADMIN ACTION: VIEW_ALL_LOGS - Accessed universal activity logs dashboard | Page: /doc_tracking/RGVwRWRCQUNfYWxsX3VzZXJfbG9ncy5waHA | IP: ::1 | Data: {"role_filter":"all","level_filter":"all","limit":200,"logs_count":179}
+[2025-07-04 03:51:18] SUPERADMIN ACTION: PAGE_VISIT - Visited page: router.php?path=RGVwRWRCQUNfYWxsX3VzZXJfbG9ncy5waHA&role=all&level=all&limit=200 | Page: /doc_tracking/RGVwRWRCQUNfYWxsX3VzZXJfbG9ncy5waHA?role=all&level=all&limit=200 | IP: ::1
+[2025-07-04 03:51:18] SUPERADMIN ACTION: PAGE_VISIT - Visited page: /doc_tracking/RGVwRWRCQUNfYWxsX3VzZXJfbG9ncy5waHA?role=all&level=all&limit=200 | Page: /doc_tracking/RGVwRWRCQUNfYWxsX3VzZXJfbG9ncy5waHA?role=all&level=all&limit=200 | IP: ::1
+[2025-07-04 03:51:18] SUPERADMIN ACTION: VIEW_ALL_LOGS - Accessed universal activity logs dashboard | Page: /doc_tracking/RGVwRWRCQUNfYWxsX3VzZXJfbG9ncy5waHA?role=all&level=all&limit=200 | IP: ::1 | Data: {"role_filter":"all","level_filter":"all","limit":200,"logs_count":181}
+[2025-07-04 03:51:43] SUPERADMIN ACTION: PAGE_VISIT - Visited page: router.php?path=RGVwRWRCQUNfc3VwZXJhZG1pbl9sb2dzLnBocA | Page: /doc_tracking/RGVwRWRCQUNfc3VwZXJhZG1pbl9sb2dzLnBocA | IP: ::1
+[2025-07-04 03:51:43] SUPERADMIN ACTION: VIEW_LOGS - Accessed activity logs dashboard | Page: /doc_tracking/RGVwRWRCQUNfc3VwZXJhZG1pbl9sb2dzLnBocA | IP: ::1
